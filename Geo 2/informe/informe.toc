@@ -1,0 +1,26 @@
+\select@language {spanish}
+\contentsline {part}{I\hspace {1em}Proyecto}{5}
+\contentsline {chapter}{\numberline {1}Problema}{7}
+\contentsline {section}{\numberline {1.1}Objetivos}{7}
+\contentsline {section}{\numberline {1.2}Hipotesis}{7}
+\contentsline {section}{\numberline {1.3}Justificaci\IeC {\'o}n}{8}
+\contentsline {section}{\numberline {1.4}Productos a Obtener}{8}
+\contentsline {section}{\numberline {1.5}Alcances y Limitaciones}{9}
+\contentsline {part}{II\hspace {1em}UML}{11}
+\contentsline {chapter}{\numberline {2}An\IeC {\'a}lisis}{13}
+\contentsline {section}{\numberline {2.1}Analisis de Viabilidad}{13}
+\contentsline {subsection}{\numberline {2.1.1}Tecnica}{13}
+\contentsline {subsection}{\numberline {2.1.2}Economica}{13}
+\contentsline {section}{\numberline {2.2}Analisis de Requerimientos}{14}
+\contentsline {subsection}{\numberline {2.2.1}Funcionales}{14}
+\contentsline {subsection}{\numberline {2.2.2}No funcionales}{14}
+\contentsline {subsection}{\numberline {2.2.3}Datos}{14}
+\contentsline {subsubsection}{Definici\IeC {\'o}n espacial del \IeC {\'a}rea de estudio}{14}
+\contentsline {subsubsection}{Datos necesarios}{14}
+\contentsline {subsubsection}{Fuentes de los datos}{14}
+\contentsline {subsection}{\numberline {2.2.4}Organizaci\IeC {\'o}n de la base de datos del proyecto}{14}
+\contentsline {chapter}{\numberline {3}Dise\IeC {\~n}o}{15}
+\contentsline {section}{\numberline {3.1}Introducci\IeC {\'o}n}{15}
+\contentsline {section}{\numberline {3.2}Modelado del an\IeC {\'a}lisis}{16}
+\contentsline {part}{III\hspace {1em}Conclusiones}{17}
+\contentsline {chapter}{\numberline {4}Conlusiones}{19}
