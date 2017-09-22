@@ -3,23 +3,117 @@
 \section{Analisis de Viabilidad}
 \subsection{Tecnica}
 
+\begin{itemize}
+	\item \textbf{IDEA: }El sistema a implementar se realiza con el conocimiento adquirido en clase y de estudio propio.
+	\item \textbf{TIEMPO: }Se prestan horas persona de dos integrantes del equipo dispuestos a trabajar en conjunto para lograr el objetivo.
+	\item \textbf{PRODUCTO: }Se cuenta con un fin bastante idealista por el cual debemos tener conocimientos bastante amplios pero que si logramos alcanzarlo su realización dará solución a grandes problemáticas.
+
+\end{itemize}
+
 \subsection{Economica}
 
-\clearpage
 
+
+\begin{itemize}
+	\item \textbf{DINERO: }
+	\begin{itemize}
+		\item trabajo mediante el software privado suministrado por la universidad.
+		\item Se representa en horas trabajadas por los dos integrantes del grupo.
+		
+	\end{itemize}
+	
+\end{itemize}
+
+\clearpage
+\newpage
 \section{Analisis de Requerimientos}
 
 \subsection{Funcionales}
 
-\subsection{No funcionales}
+	\begin{tabular}{|l|l|}
+		
+		\hline 
+		\rule[-1ex]{0pt}{2.5ex} RF-1 & Calcular ruta optima \\ 
+		\hline 
+		\rule[-1ex]{0pt}{2.5ex} Autores & Edwar Diaz
+		Milena Pinilla \\ 
+		\hline 
+		\rule[-1ex]{0pt}{2.5ex} Actores & Usuario \\ 
+		\hline 
+		\rule[-1ex]{0pt}{2.5ex} Fuentes & Instituto de desarrollo urbano y
+		Secretaria Distrital de Movilidad \\ 
+		\hline 
+		\rule[-1ex]{0pt}{2.5ex} Descripcion &\begin{tabular}[c]{@{}l@{}}El sistema debe permitir calcular  la ruta factible optima \\ de menor recorrido para el usuario desde el punto de \\ georreferenciacion A hasta el punto B\end{tabular} \\ 
+		\hline 
+		\rule[-1ex]{0pt}{2.5ex} Entradas & \begin{tabular}[c]{@{}l@{}}punto de origen(puede ser dato por su poscicion actual de gps),\\ punto de destino, hora.\end{tabular} \\ 
+		\hline 
+		\rule[-1ex]{0pt}{2.5ex} Salidas & \begin{tabular}[c]{@{}l@{}}Informacion detallada de la ruta optima a seguir con\\  una informacion del tiempo estimado de viaje\end{tabular} \\ 
+		\hline 
+	\end{tabular} 
+\vspace{12 mm}
 
-\subsection{Datos}
+	\begin{tabular}{|l|l|}
+	
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} RF-2 & Visualizar reportes de incidentes \\ 
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} Autores & Edwar Diaz
+	Milena Pinilla \\ 
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} Actores & Usuario \\ 
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} Fuentes & Bici Usuario y
+	Secretaria Distrital de Movilidad \\ 
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} Descripcion &\begin{tabular}[c]{@{}l@{}}El sistema debe permitir visualizar reportes de incidentes en las\\ rutas, tanto ciclorutas como calles normales, repportados por los\\ demas Bici Usuarios\end{tabular} \\ 
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} Entradas & Reportes de otros Bici Usuarios \\ 
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} Salidas & \begin{tabular}[c]{@{}l@{}}Informacion de los reportes\end{tabular} \\ 
+	\hline 
+\end{tabular} 
+\vspace{12 mm}
 
-\subsubsection{Definición espacial del área de estudio}
+	\begin{tabular}{|l|l|}
+	
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} RF-2 & Busqueda  \\ 
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} Autores & Edwar Diaz
+	Milena Pinilla \\ 
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} Actores & Usuario \\ 
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} Fuentes & \begin{tabular}[c]{@{}l@{}} Bici Usuario,Instituto de desarrollo urbano, Alcaldia istrital\\ y
+	Secretaria Distrital de Movilidad \end{tabular} \\ 
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} Descripcion &\begin{tabular}[c]{@{}l@{}}El sistema debe permitir la busqueda de bici parqueaderos\\ publicos y privados, talleres, hositales y Comando de acción\\ inmediata(CAI)\end{tabular} \\ 
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} Entradas & \begin{tabular}[c]{@{}l@{}}Punto de georreferencia de ubicacion del usuario, opcionalmente\\ que busca\end{tabular} \\ 
+	\hline 
+	\rule[-1ex]{0pt}{2.5ex} Salidas & \begin{tabular}[c]{@{}l@{}}Informacion de los reportes\end{tabular} \\ 
+	\hline 
+\end{tabular} 
+\vspace{12 mm}
 
-\subsubsection{Datos necesarios}
+\clearpage
+\section{Datos}
 
-\subsubsection{Fuentes de los datos}
+\subsection{Definición espacial del área de estudio}
 
-\subsection{Organización de la base de datos del proyecto}
+La definición de este proyecto se planteó, y se limitó para la zona de Cundinamarca, específicamente la ciudad de Bogotá D.C, la cual se encuentra ubicada en la región Cundiboyacense, limitando con los departamentos de Meta, Boyacá y Tolima
+
+\subsection{Datos necesarios}
+
+Layers: Capa de arcgis donde podemos apreciar la composición geográfica de la ciudad de Bogotá, con información sobre vías y rutas de acceso a bici Usuarios. \\
+
+Ubicación de puntos de interés a bici Usuarios: Requerido para presentar información de interés a los usuarios del sistema. \\
+
+Ubicación Geográfica: Es un dato necesario para el correcto funcionamiento del sistema, pues este permite identificar los lugares de interés de los bici-usuarios, como ciclo parqueaderos, puntos de hidratación y reparación de bicicletas.
+
+
+\subsection{Fuentes de los datos}
+
+Debido a que esta será una aplicación de retroalimentación las fuentes requeridas para la implementación de este se basaran en aquellas entidades que nos brinden información fiable de los sitios relevantes e importantes de la ciudad de Bogotá D.C, principalmente el instituto de recreación y deportes, instituto de desarrollo urbano y el instituto distrital de turismo, nos brindaran los datos suficientes para hacer posible las funcionalidades al usuario. Otra fuente disponible para la estructura del proyecto es los reportes brindados por los bici usuario. 
+
 \clearpage
